@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #f2f8ff;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: 'SF Pro Rounded';
+  color: #000;
+}
