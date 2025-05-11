@@ -1,0 +1,58 @@
+# ─── FRONTEND: Vite + React ─────────────────────────────
+node_modules/
+dist/
+.vite/
+*.log
+*.env.local
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── BACKEND: Python / Flask ────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+instance/
+.env
+venv/
+env/
+*.db
+*.sqlite3
+
+# ─── VIRTUAL ENVIRONMENTS ───────────────────────────────
+.venv/
+.ENV/
+ENV/
+
+# ─── IDEs / EDITORS ─────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─── OS GENERATED FILES ─────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── TEST / COVERAGE / BUILD ────────────────────────────
+coverage/
+htmlcov/
+*.cover
+*.py,cover
+.cache/
+pytest_cache/
+build/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.mypy_cache/
+.pytest_cache/
+__pypackages__/
+
+# ─── OTHER ───────────────────────────────────────────────
+*.swp
+*.bak
+*.tmp
