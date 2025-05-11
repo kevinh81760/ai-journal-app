@@ -9,3 +9,16 @@ body {
   font-family: 'SF Pro Rounded';
   color: #000;
 }
+
+.text-hologram {
+  background-image: url('./assets/01-Hologram-Gradient-Rainbow-Background-free-for-PPT-Google-Slides-by-SlidesCorner.com_.jpg');
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px black;
+}
